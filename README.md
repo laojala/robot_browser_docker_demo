@@ -9,8 +9,8 @@ Note: Browse Library has published [Docker Packages](https://github.com/MarketSq
 
 Container has one test using Browse Library. To run this one test, run container using a command:
 
-        docker run --rm <image_name>
+        docker run --rm laojala/robot_browser_docker_demo
 
 It is possible also to bind mount and run other tests inside this image. To bind mout, use command:
 
-        docker run --rm -v ${pwd}/<path_to_test_file>:/tests <image_name>
+        docker run --rm -v ${pwd}/<path_to_test_file>:/tests laojala/robot_browser_docker_demo
